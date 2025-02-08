@@ -1,0 +1,11 @@
+{
+  "smallships:waila": {
+    "entrypoints": {
+      "common": "net.funkpla.waila_smallships.SmallshipsWaila",
+      "client": "net.funkpla.waila_smallships.SmallshipsWailaClient"
+    },
+    "side": "*",
+    "required": [
+    ]
+  }
+}
