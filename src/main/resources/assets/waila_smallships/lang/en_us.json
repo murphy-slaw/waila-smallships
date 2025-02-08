@@ -1,4 +1,7 @@
 {
   "smallships.ship.attributes.max_speed.label": "Max Speed: %s",
-  "smallships.ship.container_size.label": "Hold Capacity: %s"
+  "smallships.ship.container_size.label": "Hold Capacity: %s",
+  "config.waila.plugin_waila_smallships": "Small Ships",
+  "config.waila.plugin_waila_smallships.show_icons": "Show Stat Icons",
+  "config.waila.plugin_waila_smallships.show_text": "Show Stat Text"
 }

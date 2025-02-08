@@ -8,3 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] 2025-02-07
 
 Initial release.
+
+## [1.1.0] 2025-02-08
+
+### Added
+- Configuration options
+- Icon and/or Text display
+
+### Changed
+- Big internal refactor
