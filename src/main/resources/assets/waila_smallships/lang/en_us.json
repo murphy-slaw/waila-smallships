@@ -3,5 +3,6 @@
   "smallships.ship.container_size.label": "Hold Capacity: %s",
   "config.waila.plugin_waila_smallships": "Small Ships",
   "config.waila.plugin_waila_smallships.show_icons": "Show Stat Icons",
-  "config.waila.plugin_waila_smallships.show_text": "Show Stat Text"
+  "config.waila.plugin_waila_smallships.show_text": "Show Stat Text",
+  "config.waila.plugin_waila_smallships.icon_length": "Max Icons Per Line"
 }

@@ -27,7 +27,7 @@ public enum ShipEntityProvider implements IEntityComponentProvider {
             tooltip.addLine(text);
         }
         if (config.getBoolean(SmallshipsWaila.CONFIG_SHOW_ICONS))
-            tooltip.addLine().with(new SpeedComponent(data.getFloat("maxSpeed"), 150, 15));
+            tooltip.addLine().with(new SpeedComponent(data.getFloat("maxSpeed"), 150, config.getInt(SmallshipsWaila.CONFIG_ICON_LENGTH)));
 
         if (config.getBoolean(SmallshipsWaila.CONFIG_SHOW_TEXT)) {
             var text = Component.translatable(
@@ -38,7 +38,7 @@ public enum ShipEntityProvider implements IEntityComponentProvider {
         }
 
         if (config.getBoolean(SmallshipsWaila.CONFIG_SHOW_ICONS))
-            tooltip.addLine().with(new CargoComponent(data.getFloat("containerSize"), 10));
+            tooltip.addLine().with(new CargoComponent(data.getFloat("containerSize"), config.getInt(SmallshipsWaila.CONFIG_ICON_LENGTH)));
 
         IEntityComponentProvider.super.appendBody(tooltip, accessor, config);
     }

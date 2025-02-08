@@ -17,3 +17,8 @@ Initial release.
 
 ### Changed
 - Big internal refactor
+
+## [1.1.1] 2025-02-08
+
+### Changed
+- Max icons per line is now configurable.
