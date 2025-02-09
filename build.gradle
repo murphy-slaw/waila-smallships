@@ -160,6 +160,7 @@ publishMods {
 			Changelog.OutputType.MARKDOWN
 	)
 
+	/*
 	curseforge {
 		projectId = ""
 		projectSlug = "waila_smallships" // Required for discord webhook
@@ -172,14 +173,15 @@ publishMods {
 		requires("cloth-config")
 		optional("modmenu")
 	}
+	 */
 
 	modrinth {
-		projectId = ""
+		projectId = "zPDxO1Zp"
 		accessToken = providers.environmentVariable("MODRINTH_TOKEN")
 		minecraftVersions.add(project.minecraft_version)
-		requires("fabric-api")
-		requires("cloth-config")
-		requires("cardinal-components-api")
+		requires("small-ships")
+		requires("wthit")
+		requires("badpackets")
 		optional("modmenu")
 	}
 }
